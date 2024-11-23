@@ -1,0 +1,45 @@
+body{
+    background-image: url("Cards/wood.jpg");
+}
+img{
+    width: 222px;
+    height: 382px;
+    border-radius: 10px;
+    border: solid 2px black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.595);
+}
+
+section{
+    background: linear-gradient(to bottom,rgb(189, 172, 147),rgb(91, 73, 49));
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    text-align: center;
+    border-width: 3px;
+    border-color: black;
+    border: solid;
+    margin: auto;
+    justify-items: center;
+    border-radius: 20px;
+    box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.57);
+    width: 350px;
+
+}
+h2{
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: tan;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.595);
+    width: 250px; 
+}
+p{
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: tan;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.595);
+    width: 250px;
+    height: 40px;
+}
