@@ -103,9 +103,19 @@ function pullCard(){
     const deck_cards = Object.keys(Deck)
     const random_card = deck_cards[Math.floor(Math.random() * deck_cards.length)]
     const random_meaning = Deck[random_card]
-    card_meaning.textContent = `${random_meaning[1]}`
-    card_name.textContent = `${random_meaning[0]}`
-    document.getElementById("card_img").src = random_meaning[2]
+    setTimeout(()=>{document.getElementById("card_img").src = "Cards/WR78_Card+Back.jpg"},100)
+    document.getElementById("card_img").classList.add("flip_ani")
+    setTimeout(function(){
+        document.getElementById("card_img").src = random_meaning[2]
+    },800)
+    setTimeout(function(){
+        document.getElementById("card_img").classList.remove("flip_ani")
+        card_meaning.textContent = `${random_meaning[1]}`
+        card_name.textContent = `${random_meaning[0]}`
+    },1000)
+    
+
+
 }
 
 click_card.addEventListener("click",pullCard)
