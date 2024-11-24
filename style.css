@@ -1,5 +1,8 @@
 body{
-    background-image: url("Cards/Waterdrop.jpeg");
+    background-color: black;
+    background-image: url("Cards/treeolife\ white.png");
+    background-size: 10em;
+
 }
 img{
     width: 222px;
@@ -9,7 +12,7 @@ img{
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.57);
 }
 h4{
-    color: bisque;
+    color: rgb(180, 180, 180);
 }
 section{
     font-family: 'Times New Roman', Times, serif;
@@ -25,7 +28,7 @@ section{
 h2{
     border: solid 2px black;
     border-radius: 10px;
-    background-color: tan;
+    background-color: rgb(151, 151, 151);
     padding: 10px;
     margin: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.595);
@@ -34,7 +37,7 @@ h2{
 p{
     border: solid 2px black;
     border-radius: 10px;
-    background-color: tan;
+    background-color: rgb(151, 151, 151);
     padding: 10px;
     margin: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.595);
