@@ -78,7 +78,7 @@ const Deck = {
     The_Queen_of_Wands:["The Queen of Wands","courage, determination, joy]","Cards/minor_arcana_wands_queen.png"],
     The_King_of_Wands:["The King of Wands"," big picture, leader, overcoming challenges","Cards/minor_arcana_wands_king.png"],
     //Pentacles
-    The_Ace_of_Pentacles:["The Ace of Pentacles","opportunity, prosperity, new venture=","Cards/minor_arcana_pentacles_ace.png"],
+    The_Ace_of_Pentacles:["The Ace of Pentacles","opportunity, prosperity, new venture","Cards/minor_arcana_pentacles_ace.png"],
     Two_of_Pentacles:["Two of Pentacles","balancing decisions, priorities, adapting to change","Cards/minor_arcana_pentacles_2.png"],
     Three_of_Pentacles:["Three of Pentacles","teamwork, collaboration, building","Cards/minor_arcana_pentacles_3.png"],
     Four_of_Pentacles:["Four of Pentacles","conservation, frugality, security","Cards/minor_arcana_pentacles_4.png"],
