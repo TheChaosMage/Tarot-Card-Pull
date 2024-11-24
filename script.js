@@ -107,7 +107,7 @@ function pullCard(){
     document.getElementById("card_img").classList.add("flip_ani")
     setTimeout(function(){
         document.getElementById("card_img").src = random_meaning[2]
-    },450)
+    },700)
     setTimeout(function(){
         document.getElementById("card_img").classList.remove("flip_ani")
         card_meaning.textContent = `${random_meaning[1]}`
